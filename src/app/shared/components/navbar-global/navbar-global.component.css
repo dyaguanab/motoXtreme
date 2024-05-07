@@ -1,0 +1,25 @@
+.navbar-text-light{
+    color:white;
+    font-weight: bolder;
+}
+.navbar-text-light:hover{
+    color: red
+}
+
+.text-dark-bold{
+    color: black;
+    font-weight: bolder;
+}
+
+.text-dark-bold:hover{
+    color:red
+}
+
+@media (max-width: 992px) {
+    .navbar-mobile{
+        display: none;
+    }
+  }
+@media (min-width:993px) {
+    
+}

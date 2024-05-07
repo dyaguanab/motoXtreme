@@ -1,0 +1,11 @@
+.text-light-bold{
+    color:white;
+    font-weight: bold;
+}
+
+footer{
+    position:relative;
+    left:0px;
+    bottom:0px;
+    width:100%;
+}

@@ -1,0 +1,41 @@
+
+
+.container-personality {
+  background-image: url(../../../../../assets/sunsetMotor.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  height: 30vh;
+  width: auto;
+  margin: 0;
+}
+
+.center-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900 !important;
+}
+
+.center-text:hover{
+  text-shadow: 10px;
+}
+
+.promotions-text{
+  padding: 20px;
+}
+@media (max-width: 992px) {
+
+}
+@media (min-width: 993px) {
+  .div-container {
+    height: 100vh
+  }
+  .container-personality {
+    height: 50vh;
+    margin: 120px;
+    margin-top: 0px;
+  }
+}

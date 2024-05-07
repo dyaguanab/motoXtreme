@@ -1,0 +1,29 @@
+.container-fluid {
+    background-color: rgb(57, 111, 190);
+    height: 100vh;
+    width: auto;
+}
+
+.container-personality {
+    background-image: url(../../../../../assets/GT-XR-header.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: auto;
+    margin: 0;
+}
+
+.title-xbow{
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text{
+    position: absolute;
+}

@@ -1,0 +1,13 @@
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.text-light-bold{
+    color:white;
+    font-weight: bold;
+}
+
+.text-light-bold:hover{
+    color: red
+}
