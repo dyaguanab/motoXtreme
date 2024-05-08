@@ -8,7 +8,7 @@ import { XbowRoutingModule } from './xbow-routing.module';
   declarations: [],
   imports: [
     CommonModule,
-    XbowRoutingModule
+    XbowRoutingModule,
   ]
 })
 export class XbowModule { }

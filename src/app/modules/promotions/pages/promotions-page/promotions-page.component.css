@@ -26,10 +26,10 @@
 .promotions-text{
   padding: 20px;
 }
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 
 }
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .div-container {
     height: 100vh
   }

@@ -1,10 +1,64 @@
 <div class="div-container text-center">
   <div class="container-personality">
-    <div class="text">
     <h1 class="title-xbow text-color-3 large">XBOW</h1>
-</div>
+    <h2 class="text-color-5 subtitle-xbow">BORN ON THE RACETRACK</h2>
+    <button class="background-color-5 text-color-3 button-xbow">
+      PRE-ORDER
+    </button>
   </div>
 </div>
-<p>
-  hola Mundo
-</p>
+<div class="image-video-wrp">
+  <figure class="border-color-1">
+    <ng-container *ngIf="videodisabled; else videoblock">
+      <img
+        src="../../../../../assets/xbowVideoPoster.png"
+        class="img-fluid thumblin"
+      />
+    </ng-container>
+    <ng-template #videoblock>
+      <iframe
+        src="https://www.youtube.com/embed/CVbgoHEGpIc?si=QX1bGkohXMaOtHvn"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </ng-template>
+    <div class="play-icon-box border-color-1">
+      <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="" />
+    </div>
+  </figure>
+
+  <div class="text-color-1 pie-video">
+    <br />
+    <h2 class="bold">REVOLUTIONARY. PURISTIC. RADICAL.</h2>
+    <p class="text-color-2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum rem
+      voluptatum provident adipisci maxime error ut. Sequi fugiat quae expedita,
+      amet obcaecati enim ullam accusantium omnis asperiores maxime placeat
+      delectus!
+    </p>
+  </div>
+
+  <div class="container-grid">
+
+    <div class="row">
+      <div>
+        <h3 class="text-color-1 title-grid">GRID</h3>
+        <div class="line-grid"></div>
+      </div>
+      <div class="ajuste-tablas-grid">
+      <div class="col-sm-12 col-lg-6 bg-primary">
+          <h1>TITLE 1</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corrupti dignissimos saepe amet aliquid laudantium porro autem quia tempora esse. Quis consequuntur necessitatibus facere amet provident ipsa repellendus recusandae reprehenderit!</p>
+      </div>
+      <div class="col-sm-12 col-lg-6 bg-primary">
+          <h1>TITLE 2</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil provident eligendi perferendis minus. Soluta officiis laborum atque ullam amet.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+</div>

@@ -26,7 +26,7 @@ import { LanguagePageComponent } from '@modules/language/language-page/language-
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

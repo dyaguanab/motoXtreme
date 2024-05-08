@@ -1,52 +1,79 @@
-
 * {
-    font-family: "Overpass", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #B8B7BD;
-  }
-
-.background-color-1{
-    background-color: #272625 !important;
-  }
-.background-color-2{
-    background-color: #61636B !important;
-}
-.background-color-3{
-    background-color: #E1E0E3 !important;
-}
-.background-color-4{
-    background-color: #30302F !important;
-}
-.background-color-5{
-    background-color: #0C225D !important;
+  font-family: "Overpass", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #b8b7bd;
 }
 
-.text-color-1{
-    color: #272625 !important;
+.background-color-1 {
+  background-color: #272625 !important;
+}
+.background-color-2 {
+  background-color: #61636b !important;
+}
+.background-color-3 {
+  background-color: #e1e0e3 !important;
+}
+.background-color-4 {
+  background-color: #30302f !important;
+}
+.background-color-5 {
+  background-color: #0c225d !important;
 }
 
-.text-color-2{
-    color: #61636B !important;
+.text-color-1 {
+  color: #272625 !important;
 }
 
-.text-color-3{
-    color: #E1E0E3 !important;
+.text-color-2 {
+  color: #61636b !important;
 }
 
-.text-color-4{
-    color: #30302F !important;
+.text-color-3 {
+  color: #30302f !important;
 }
 
-.text-color-5{
-    color: #0C225D !important;
+.text-color-4 {
+  color: #30302f !important;
+}
+
+.text-color-5 {
+  color: #0c225d !important;
+}
+
+.border-color-1 {
+    border: 2px solid #272625 !important;
+}
+
+.border-color-2 {
+    border: 2px solid #61636b !important;
+}
+
+.border-color-3 {
+    border: 2px solid #30302f !important;
+}
+
+.border-color-4 {
+    border: 2px solid #30302f !important;
+}
+
+.border-color-5 {
+    border: 2px solid #0c225d !important;
 }
 
 .div-container {
-    height: 73vh;
-  }
+  height: 73vh;
+}
 
 .large {
-    font-size: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.bold{
+    font-weight: bolder !important;
+}
+html,
+body {
+  height: 100vh;
 }
