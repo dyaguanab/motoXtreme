@@ -1,6 +1,6 @@
 
 .container-personality {
-    background-image: url(../../../../../assets/GT-XR-header.png);
+    background-image: url(../../../../../assets/fondo4.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,13 +38,63 @@
     margin: 20px;
 }
 
+.box{
+    margin-top: 1.5rem !important;
+}
+
 .filter{
     margin-bottom: 20px;
 }
 
-.img-carnet{
-    width: 100px;
+.line-grid{
+    border-top:.5px solid #000;
 }
+.translate-indicators{
+    position: absolute;
+    top: 102%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+}
+
+.size-carousel{
+    width: 90%;
+    height: 60%;
+}
+
+
+.name-model-moto{
+
+}
+
+.img-carnet{
+    width: 60px;
+}
+
 .img-model-moto{
     width: 20em;
+}
+
+.pie-model{
+
+}
+@media (min-width: 993px) {
+    .size-carousel{
+        width: 60%;
+        height: 60%;
+    }
+
+    .translate-indicators{
+        position: absolute;
+        top: 145%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+    }
+
+    .line-grid{
+        display: none;
+    }
+    .line-grid1{
+        display: block;
+        border-top:.5px solid #000;
+    }
 }

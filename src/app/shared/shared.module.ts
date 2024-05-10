@@ -8,7 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
   declarations: [
     NavbarPrimaryComponent,
     NavbarGlobalComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule
@@ -16,7 +16,7 @@ import { FooterComponent } from './components/footer/footer.component';
   exports: [
     NavbarGlobalComponent,
     NavbarPrimaryComponent,
-    FooterComponent
+    FooterComponent,
   ]
 })
 export class SharedModule { }

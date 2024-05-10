@@ -1,7 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { PrimeNGConfig } from 'primeng/api';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,7 +22,7 @@ import { LanguagePageComponent } from '@modules/language/language-page/language-
     PromotionsPageComponent,
     ExperiencePageComponent,
     ContactPageComponent,
-    LanguagePageComponent
+    LanguagePageComponent,
   ],
   imports: [
     BrowserModule,
