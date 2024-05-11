@@ -34,8 +34,12 @@
     transform: translate(-50%, -50%);
 }
 
-.container-grid{
-    margin: 20px;
+.container-carousel{
+    padding: 10px 20px 50px 20px;
+}
+
+.container-carousel-element{
+    margin-bottom: 30% ;
 }
 
 .box{
@@ -59,6 +63,12 @@
 .size-carousel{
     width: 90%;
     height: 60%;
+}
+
+.custom-carousel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -96,5 +106,9 @@
     .line-grid1{
         display: block;
         border-top:.5px solid #000;
+    }
+
+    .container-carousel-element{
+        margin-bottom: 0 ;
     }
 }
