@@ -11,6 +11,10 @@ import { PromotionsPageComponent } from './modules/promotions/pages/promotions-p
 import { ExperiencePageComponent } from './modules/experience/pages/experience-page/experience-page.component';
 import { ContactPageComponent } from '@modules/contact/contact-page/contact-page.component';
 import { LanguagePageComponent } from '@modules/language/language-page/language-page.component';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
   declarations: [
@@ -27,8 +31,19 @@ import { LanguagePageComponent } from '@modules/language/language-page/language-
   imports: [
     BrowserModule,
     AppRoutingModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: httpTranslateLoader,
+        deps: [HttpClient],
+      },
+    }),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
+
+export function httpTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
