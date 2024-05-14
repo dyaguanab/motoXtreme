@@ -16,8 +16,16 @@
 }
 
 .img-language{
-    width: 10%;
+    width: 5%;
+}
 
+.wrapper{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.list {
+  background-color: #fff;
 }
 
 

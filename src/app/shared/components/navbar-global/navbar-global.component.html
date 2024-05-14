@@ -33,22 +33,33 @@
           CONTACT
         </button>
       </li>
-      <div class="dropdown">
-        <button
-          class="button nav-link text-dark-bold"
-          type="button"
-          id="dropdownMenuButton1"
-          data-bs-toggle="dropdown"
-          aria-expanded="false"
-        >
-          LANGUAGE 
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item">English</a></li>
-          <li><a class="dropdown-item" href="#">Spanish</a></li>
-        </ul>
-      </div>
+<!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+    Action
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item" href="#">Separated link</a></li>
+  </ul>
+</div>
     </ul>
+
+    <div class="drop-down">
+      <div class="wrapper">
+        <img src="../../../../assets/en.png" alt="" class="img-language" />
+        <div class="selected">English</div>
+      </div>
+      <i class="fa-solid fa-sort-down"></i>
+      <div class="list">
+        <div class="item"><img src="../../../../assets/es.png" alt=""></div>
+        <div class="text">Spanish</div>
+      </div>
+    
+    </div>
     <form class="form-flex my-2 my-lg-0">
       <!-- <input
           class="form-control mr-sm-2"
