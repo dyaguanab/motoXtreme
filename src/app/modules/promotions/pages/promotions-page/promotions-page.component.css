@@ -4,9 +4,9 @@
   background-image: url(../../../../../assets/sunsetMotor.png);
   background-position: top center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   text-align: center;
-  height: 30vh;
+  height: 100%;
   width: auto;
   margin: 0;
 }

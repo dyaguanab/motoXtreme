@@ -2,11 +2,10 @@
     background-image: url(../../../../../assets/GT-XR-header.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     text-align: center;
     height: 100%;
     width: auto;
-    margin: 0;
 }
 
 .title-xbow{

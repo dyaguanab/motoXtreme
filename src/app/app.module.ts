@@ -11,6 +11,7 @@ import { PromotionsPageComponent } from './modules/promotions/pages/promotions-p
 import { ExperiencePageComponent } from './modules/experience/pages/experience-page/experience-page.component';
 import { ContactPageComponent } from '@modules/contact/contact-page/contact-page.component';
 import { LanguagePageComponent } from '@modules/language/language-page/language-page.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { LanguagePageComponent } from '@modules/language/language-page/language-
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

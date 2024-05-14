@@ -24,23 +24,9 @@ h1::before {
     width: 45px;
 }
 
-.title-xbow{
+.title-accesories{
     top: 57%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-weight: bolder;
-}
-
-.subtitle-xbow{
-    font-weight: bolder;
-    top: 52%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button-xbow{
-    font-weight: bolder;
-    top: 50%;
-    left: 13%;
-    transform: translate(-50%, -50%);
 }

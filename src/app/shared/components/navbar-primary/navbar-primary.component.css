@@ -1,7 +1,10 @@
 img {
-    width: 100px;
-    height: 100px;
-}
+    width: 350px;
+    height: 350px;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;}
 
 .text-light-bold{
     color:white;
