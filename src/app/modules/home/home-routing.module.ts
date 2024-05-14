@@ -7,6 +7,10 @@ import { SharedModule } from '@shared/shared.module';
 
 const routes: Routes = [
   {
+    path: '',
+    loadChildren:() => import('@modules/complete/complete.module').then(m => m.CompleteModule)
+  },
+  {
     path: 'accesories',
     loadChildren:() => import('@modules/accesories/accesories.module').then(m => m.AccesoriesModule)
   },

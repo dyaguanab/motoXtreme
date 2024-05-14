@@ -11,25 +11,22 @@
 
 .title-complete {
   font-weight: bolder;
-  position: absolute;
-  top: 44%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .subtitle-complete {
   font-weight: bolder;
-  position: absolute;
-  top: 50%;
+  top: 52%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .button-complete {
   font-weight: bolder;
-  position: absolute;
-  top: 55%;
-  left: 50%;
+  top: 50%;
+  left: 17%;
   transform: translate(-50%, -50%);
 }
 
@@ -84,7 +81,7 @@
 .pie-model {
     padding: 0 20px 0 20px;
 }
-@media (min-width: 993px) {
+@media (min-width: 992px) {
   .size-carousel {
     width: 60%;
     height: 60%;
@@ -113,4 +110,20 @@
     margin: 20px;
     margin-bottom: 30px;
   }
+
+  .title-complete {
+    top: 54%;
+    left: 50%;
+
+}
+  
+  .subtitle-complete {
+    top: 52%;
+    left: 50%;
+
+}
+  
+  .button-complete {
+    left: 3%;
+}
 }

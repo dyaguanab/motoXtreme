@@ -21,6 +21,8 @@
     "@angular/youtube-player": "^14.2.7",
     "@ngx-translate/core": "^14.0.0",
     "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1",
+    "popper.js": "^1.16.1",
     "primeng": "^14.2.3",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",

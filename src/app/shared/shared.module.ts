@@ -5,6 +5,7 @@ import { NavbarGlobalComponent } from './components/navbar-global/navbar-global.
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterModule } from '@angular/router';
 
+
 @NgModule({
   declarations: [
     NavbarPrimaryComponent,

@@ -12,7 +12,6 @@
 }
 
 .center-text {
-  position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -26,9 +25,7 @@
 .promotions-text{
   padding: 20px;
 }
-@media (max-width: 991px) {
 
-}
 @media (min-width: 992px) {
   .div-container {
     height: 100vh
