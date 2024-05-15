@@ -1,16 +1,27 @@
-img {
-    width: 350px;
-    height: 350px;
-    top: 50%;
-    right: -10%;
-    transform: translate(-50%, -50%);
-    font-weight: bolder;}
-
-.text-light-bold{
-    color:white;
-    font-weight: bold;
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.text-light-bold:hover{
-    color: red
+img {
+  width: 150px;
+  height: 100px;
+  font-weight: bolder;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .logo2 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .logo1 {
+    display: none;
+  }
+
+  .secondNavbar {
+    display: none;
+  }
 }

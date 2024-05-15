@@ -1,9 +1,5 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { HomePageComponent } from './pages/home-page/home-page.component';
-import { NavbarGlobalComponent } from '@shared/components/navbar-global/navbar-global.component';
-import { NavbarPrimaryComponent } from '@shared/components/navbar-primary/navbar-primary.component';
-import { SharedModule } from '@shared/shared.module';
 
 const routes: Routes = [
   {

@@ -74,9 +74,25 @@
 }
 
 .bold{
-    font-weight: bolder !important;
+    font-weight: bold !important;
 }
-html,
-body {
-  height: 100vh;
+
+.text-light-bold {
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.text-dark-bold {
+  color: #30302f;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.text-dark-bold:hover {
+  color: orange;
+}
+
+.text-light-bold:hover {
+  color: red;
 }
