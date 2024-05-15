@@ -30,3 +30,24 @@ h1::before {
     transform: translate(-50%, -50%);
     font-weight: bolder;
 }
+
+.container-originalAccesories{
+    margin: 1rem;
+}
+
+@media (max-width:992px) {
+    .container-originalAccesories{
+        display: none;
+    }
+
+
+}
+@media (min-width:993px) {
+    .carouselAccesories{
+        display: none;
+    }
+
+    .container-originalAccesories{
+        margin: 4rem;
+    }
+}
