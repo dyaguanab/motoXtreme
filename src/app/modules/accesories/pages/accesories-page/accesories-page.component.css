@@ -61,7 +61,7 @@ h1::before {
 }
 
 .config {
-margin: 20px
+  margin: 20px;
 }
 
 .head-config {
@@ -73,9 +73,92 @@ margin: 20px
   height: 100%;
 }
 
-.p-configure{
-    padding: 15px 15px;
-    margin-bottom: 0 !important;
+.p-configure {
+  padding: 15px 15px;
+  margin-bottom: 0 !important;
+}
+
+.accesories-title-video {
+  padding: 5rem 0 3rem 0;
+}
+
+.ktm-container{
+  margin: 15px 15px
+}
+
+.image-video-wrp {
+  margin: 0px;
+}
+
+.image-video-wrp figure {
+  position: relative;
+  margin: 0;
+}
+
+.image-video-wrp figure .thumblin {
+  height: 265px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.image-video-wrp figure .thumblin2 {
+  height: 265px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.image-video-wrp figure iframe {
+  height: 265px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.play-icon-box {
+  position: absolute;
+  right: 25px;
+  bottom: -20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.play-icon-box2 {
+  position: absolute;
+  left: 145px;
+  bottom: 100px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px #00000029;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.play-icon-box img {
+  position: relative;
+  left: 2px;
+}
+
+.text-video{
+  margin: 20px;
+}
+
+.img-complement{
+  width: 100%;
+  height: 200px;
 }
 
 @media (max-width: 992px) {
@@ -94,11 +177,11 @@ margin: 20px
 
   .img.config {
     width: 100%;
-    height: 110%;
+    height: 100%;
   }
 
-  .p-configure{
-    padding-left: 0;
+  .p-configure {
+    padding: 15% 15%;
     margin-bottom: 0 !important;
-}
+  }
 }

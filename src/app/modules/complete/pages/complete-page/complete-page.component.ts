@@ -11,4 +11,5 @@ export class CompletePageComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
 }
