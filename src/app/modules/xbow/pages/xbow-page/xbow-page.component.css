@@ -75,9 +75,11 @@
 .container-grid{
     margin: 0;
 }
+
 .title-grid{
     padding-bottom: 10px;
 }
+
 .line-grid {
     border-top:.5px solid #000;
     margin-bottom: 64px;

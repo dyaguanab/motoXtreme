@@ -67,9 +67,6 @@
   justify-content: center;
 }
 
-.name-model-moto {
-}
-
 .img-carnet {
   width: 60px;
 }
@@ -79,8 +76,12 @@
 }
 
 .pie-model {
-    padding: 0 20px 0 20px;
+  padding: 0 20px 0 20px;
 }
+.button-complete {
+  left: 3%;
+}
+
 @media (min-width: 992px) {
   .size-carousel {
     width: 60%;
@@ -114,16 +115,14 @@
   .title-complete {
     top: 54%;
     left: 50%;
+  }
 
-}
-  
   .subtitle-complete {
     top: 52%;
     left: 50%;
+  }
 
-}
-  
-  .button-complete {
-    left: 3%;
-}
+  .w-lg-90 {
+    width: 85% !important;
+  }
 }
