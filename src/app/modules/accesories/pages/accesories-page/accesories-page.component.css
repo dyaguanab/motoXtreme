@@ -44,6 +44,11 @@
     top: 65%;
     left: 0%;
 }
+
+.button-accesories:hover {
+  color: #ffa200 !important;
+  border-color: #ffa200 !important;
+}
 .container-originalAccesories {
   margin: 1rem;
 }
