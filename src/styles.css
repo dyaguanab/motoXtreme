@@ -98,9 +98,12 @@ h4 {
 }
 
 .font-size-1 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
+.font-size-15 {
+  font-size: 1.5em;
+}
 .font-size-2 {
   font-size: 2em;
 }
@@ -147,6 +150,11 @@ h4 {
   -2px 0 0 white,
   0 2px 0 white,
   0 -2px 0 white;
+}
+
+button:hover {
+  color: #ffa200 !important;
+  border-color: #ffa200 !important;
 }
 @media (min-width: 993px) {
   .font-size-lg-1 {

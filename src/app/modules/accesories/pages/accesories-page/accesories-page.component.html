@@ -13,19 +13,19 @@
   </div>
 </div>
 
-<div class="container">
+<div class="">
   <div class="pie-background mt-5">
-    <p class="text-color-1 text-center font-size-lg-2">
+    <p class="text-color-1 text-center font-size-lg-2 font-size-1">
       MAKE YOUR MOTORCYCLE YOURS WITH HIGH-QUALITY ACCESSORIES. <br />
       ALL MOTORBIKES ACCESSORIES COME WITH A WARRANTY FOR YOUR PEACE OF MIND.
     </p>
   </div>
 
-  <div id="carouselAccesories" class="carousel slide carouselAccesories mt-5">
-    <h2 class="text-color-1 text-center font-size-5">
+  <div id="carouselAccesories" class="carousel slide carouselAccesories mt-5 background-color-3">
+    <h2 class="text-color-6 text-center font-size-lg-5">
       ORIGINAL ACCESORIES OF DIFFERENT BRANDS
     </h2>
-    <div class="carousel-inner">
+    <div class="carousel-inner p-4">
       <div class="carousel-item active p-1">
         <img
           src="/assets/accesories/accesories-1.png"
@@ -135,7 +135,7 @@
 </div>
 
   <div class="intro" id="discover">
-    <h2 class="text-color-6 my-5 ms-3 large font-size-lg-4">
+    <h2 class="text-color-5 my-5 ms-3 large font-size-lg-4">
       CONSULT THE CATALOGS
     </h2>
     <!-- aqui va a ir un grid, dentro de cada celda un boton de descargar un pdf y fueraaaaaaaaaa, -->
@@ -198,193 +198,197 @@
 <div class="config background-color-3 border-color-5">
   <div class="row">
     <div class="col-lg-8 d-flex justify-content-center">
-      <img class="img-config" src="/assets/accesories/hayabusa.png" alt="" />
+      <img class="img-config background-color-2" src="/assets/accesories/hayabusa.png" alt="" />
     </div>
     <div class="col-lg-4 d-flex flex-wrap align-items-center">
       <div class="head-config d-flex justify-content-center flex-wrap">
-        <h3 class="text-color-1 font-size-lg-3">
+        <h3 class="text-color-6 font-size-lg-3">
           Configure your motorcycle accessories
         </h3>
-        <p class="p-configure text-color-3 font-size-lg-1">
+        <p class="p-configure text-color-3 font-size-lg-15">
           Visit our configurator to add accessories to your Honda motorcycle and
           contact your local dealer. The configurator also includes accessory
           part numbers – easy reference for current owners.
         </p>
-        <button class="text-color-1">Configure</button>
+        <button class="text-color-5 border-color-5 font-size-lg-2">Configure</button>
       </div>
     </div>
   </div>
 </div>
 
-<div
-  class="accesories-title-video d-grid flex-wrap justify-content-center background-color-3"
->
-  <h3 class="d-flex justify-content-center font-size-lg-3">Accesories Video</h3>
-  <p class="font-size-lg-1">See our accessories in all their splendor</p>
-</div>
-
-<div class="ktm-container">
-  <div class="d-flex flex-column-reverse flex-lg-row justify-content-center">
-    <div class="col-lg-3 text-video">
-      <p class="">
-        Pick a point on a map, mark it, and hit the road. The KTM 1290 SUPER
-        ADVENTURE R is designed to traverse the wildest and most challenging
-        terrain with unmatched capability and class-leading performance. We are
-        only able to say one thing: Get ready, unexplored territories! The KTM
-        1290 SUPER ADVENTURE R is capable and prepared to plant its flag
-        anywhere on the planet.
-      </p>
-    </div>
-    <div class="col-lg-7">
-      <div class="image-video-wrp">
-        <figure class="border-color-1">
-          <ng-container *ngIf="videodisabled; else videoKtm">
-            <img
-              src="/assets/accesories/1290poster.png"
-              class="img-fluid thumblin2"
-            />
-          </ng-container>
-          <ng-template #videoKtm>
-            <iframe
-              src="https://www.youtube.com/embed/QWCnTq1H-2A?si=EsOJdI62kv7N4KLb"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
-          </ng-template>
-          <div class="play-icon-box border-color-1">
-            <img
-              (click)="startVideo()"
-              [title]="play"
-              [src]="videoIcon"
-              alt=""
-            />
-          </div>
-        </figure>
-      </div>
-    </div>
+<div class="background-color-1">
+  <div
+    class="accesories-title-video d-grid flex-wrap justify-content-center background-color-3"
+  >
+    <h3 class="d-flex justify-content-center font-size-lg-3 text-color-6">Accesories Video</h3>
+    <p class="font-size-lg-1 text-color-6">See our accessories in all their splendor</p>
   </div>
+  
+  <div class="ktm-container background-color-1">
+    <div class="d-flex flex-column-reverse flex-lg-row justify-content-center">
+      <div class="col-lg-3 text-video d-flex align-content-center align-items-center">
+        <p class="text-color-3">
+          Pick a point on a map, mark it, and hit the road. The KTM 1290 SUPER
+          ADVENTURE R is designed to traverse the wildest and most challenging
+          terrain with unmatched capability and class-leading performance. We are
+          only able to say one thing: Get ready, unexplored territories! The KTM
+          1290 SUPER ADVENTURE R is capable and prepared to plant its flag
+          anywhere on the planet.
+        </p>
+      </div>
+      <div class="col-lg-7">
+        <div class="image-video-wrp">
+          <figure class="border-color-1">
+            <ng-container *ngIf="videodisabled; else videoKtm">
+              <img
+                src="/assets/accesories/1290poster.png"
+                class="img-fluid thumblin2"
+              />
+            </ng-container>
+            <ng-template #videoKtm>
+              <iframe
+                src="https://www.youtube.com/embed/QWCnTq1H-2A?si=EsOJdI62kv7N4KLb"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              ></iframe>
+            </ng-template>
+            <div class="play-icon-box border-color-1">
+              <img
+                (click)="startVideo()"
+                [title]="play"
+                [src]="videoIcon"
+                alt=""
+              />
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+  
+    <div class="container pt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-lg-4 row d-grid flex-wrap m-md-3 m-lg-0 p-lg-0">
+          <div class="col-12 d-flex justify-content-center p-3">
+            <div class="image-video-wrp">
+              <figure>
+                <ng-container *ngIf="videodisabled; else video1">
+                  <img
+                    src="/assets/accesories/img-grid-1.png"
+                    class="img-fluid thumblin"
+                  />
+                </ng-container>
+                <ng-template #video1>
+                  <iframe
+                    src="https://www.youtube.com/embed/ZJOm2qkL1no?si=MzQIicy5kUyAdBSx"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </ng-template>
+                <div class="play-icon-box2 border-color-1">
+                  <img
+                    (click)="startVideo()"
+                    [title]="play"
+                    [src]="videoIcon"
+                    alt=""
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-center text-color-3">
+            CB650R Sport Pack Increase dynamism with the Quickshifter, instrument
+            display and passenger seat cover. A tank protector adds practical
+            protection against zippers.
+            
+          </div>
+        </div>
+        <div
+          class="col-lg-4 flex-column-reverse d-lg-flex flex-wrap m-md-3 m-lg-0 p-lg-0"
+        >
+          <div class="col-12 d-flex justify-content-center p-3">
+            <div class="image-video-wrp">
+              <figure>
+                <ng-container *ngIf="videodisabled; else video2">
+                  <img
+                    src="/assets/accesories/img-grid-2.png"
+                    class="img-fluid thumblin"
+                  />
+                </ng-container>
+                <ng-template #video2>
+                  <iframe
+                    src="https://www.youtube.com/embed/mqKcdnMEdGo?si=_B96hKC2a9QctxMs"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </ng-template>
+                <div class="play-icon-box2 border-color-1">
+                  <img
+                    (click)="startVideo()"
+                    [title]="play"
+                    [src]="videoIcon"
+                    alt=""
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>
+          <div class="col-12 d-flex justify-content-center ps-3 text-color-3">
+            CB1000RR-R Fireblade Racing Pack Add speed details to your Fireblade.
+            A Quickshifter (standard on the Fireblade SP) makes gear changes
+            quicker, while a sprocket guard, frame guard and tank guard provide
+            protection. An alcantara seat adds style to match the red or black
+            seat fairing. An oil filler cap, wheel stripes, and a tall smoked
+            screen are the finishing touches.
 
-  <div class="container pt-5">
-    <div class="row d-flex justify-content-center">
-      <div class="col-lg-4 row d-grid flex-wrap m-md-3 m-lg-0 p-lg-0">
-        <div class="col-12 d-flex justify-content-center p-3">
-          <div class="image-video-wrp">
-            <figure>
-              <ng-container *ngIf="videodisabled; else video1">
-                <img
-                  src="/assets/accesories/img-grid-1.png"
-                  class="img-fluid thumblin"
-                />
-              </ng-container>
-              <ng-template #video1>
-                <iframe
-                  src="https://www.youtube.com/embed/ZJOm2qkL1no?si=MzQIicy5kUyAdBSx"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </ng-template>
-              <div class="play-icon-box2 border-color-1">
-                <img
-                  (click)="startVideo()"
-                  [title]="play"
-                  [src]="videoIcon"
-                  alt=""
-                />
-              </div>
-            </figure>
           </div>
         </div>
-        <div class="col-12 d-flex justify-content-center">
-          CB1000RR-R Fireblade Racing Pack Add speed details to your Fireblade.
-          A Quickshifter (standard on the Fireblade SP) makes gear changes
-          quicker, while a sprocket guard, frame guard and tank guard provide
-          protection. An alcantara seat adds style to match the red or black
-          seat fairing. An oil filler cap, wheel stripes, and a tall smoked
-          screen are the finishing touches.
-        </div>
-      </div>
-      <div
-        class="col-lg-4 flex-column-reverse d-lg-flex flex-wrap m-md-3 m-lg-0 p-lg-0"
-      >
-        <div class="col-12 d-flex justify-content-center p-3">
-          <div class="image-video-wrp">
-            <figure>
-              <ng-container *ngIf="videodisabled; else video2">
-                <img
-                  src="/assets/accesories/img-grid-2.png"
-                  class="img-fluid thumblin"
-                />
-              </ng-container>
-              <ng-template #video2>
-                <iframe
-                  src="https://www.youtube.com/embed/mqKcdnMEdGo?si=_B96hKC2a9QctxMs"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </ng-template>
-              <div class="play-icon-box2 border-color-1">
-                <img
-                  (click)="startVideo()"
-                  [title]="play"
-                  [src]="videoIcon"
-                  alt=""
-                />
-              </div>
-            </figure>
+        <div class="col-lg-4 row d-grid flex-nowrap m-md-3 m-lg-0 p-lg-0">
+          <div class="col-12 d-flex justify-content-center p-3">
+            <div class="image-video-wrp">
+              <figure>
+                <ng-container *ngIf="videodisabled; else video3">
+                  <img
+                    src="/assets/accesories/img-grid-3.png"
+                    class="img-fluid thumblin"
+                  />
+                </ng-container>
+                <ng-template #video3>
+                  <iframe
+                    src="https://www.youtube.com/embed/fZhBiQQvJfw?si=GFJndof59t8NyWGF"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe>
+                </ng-template>
+                <div class="play-icon-box2 border-color-1">
+                  <img
+                    (click)="startVideo()"
+                    [title]="play"
+                    [src]="videoIcon"
+                    alt=""
+                  />
+                </div>
+              </figure>
+            </div>
           </div>
-        </div>
-        <div class="col-12 d-flex justify-content-center ps-3">
-          NX500: Adventure Pack Get ready for the rigors of the road. Fog lights
-          distinguish the NX500 from other road users from a distance, knuckle
-          guards protect hands while the smoked screen and wheel stripes add
-          style. The tank pad protects the paint from scratches caused by the
-          zipper.
-        </div>
-      </div>
-      <div class="col-lg-4 row d-grid flex-nowrap m-md-3 m-lg-0 p-lg-0">
-        <div class="col-12 d-flex justify-content-center p-3">
-          <div class="image-video-wrp">
-            <figure>
-              <ng-container *ngIf="videodisabled; else video3">
-                <img
-                  src="/assets/accesories/img-grid-3.png"
-                  class="img-fluid thumblin"
-                />
-              </ng-container>
-              <ng-template #video3>
-                <iframe
-                  src="https://www.youtube.com/embed/fZhBiQQvJfw?si=GFJndof59t8NyWGF"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
-              </ng-template>
-              <div class="play-icon-box2 border-color-1">
-                <img
-                  (click)="startVideo()"
-                  [title]="play"
-                  [src]="videoIcon"
-                  alt=""
-                />
-              </div>
-            </figure>
+          <div class="col-12 d-flex justify-content-center text-color-3">
+            NX500: Adventure Pack Get ready for the rigors of the road. Fog lights
+            distinguish the NX500 from other road users from a distance, knuckle
+            guards protect hands while the smoked screen and wheel stripes add
+            style. The tank pad protects the paint from scratches caused by the
+            zipper.
           </div>
-        </div>
-        <div class="col-12 d-flex justify-content-center">
-          CB650R Sport Pack Increase dynamism with the Quickshifter, instrument
-          display and passenger seat cover. A tank protector adds practical
-          protection against zippers.
         </div>
       </div>
     </div>
