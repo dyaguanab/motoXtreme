@@ -4,11 +4,11 @@ import { HomePageComponent } from '@modules/home/pages/home-page/home-page.compo
 
 const routes: Routes = [
   {
-    path: 'auth', //TODO: localhost:4200/
+    path: 'auth', 
     loadChildren:() => import(`./modules/auth/auth.module`).then(m => m.AuthModule),
   },
   {
-    path: '', //TODO: localhost:4200/
+    path: '', 
     component: HomePageComponent,
     loadChildren:() => import(`./modules/home/home.module`).then(m => m.HomeModule),
   },
