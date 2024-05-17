@@ -16,10 +16,3 @@ footer{
 .text-black {
     color: black !important;
 }
-
-p{
-    font-family: "Overpass", sans-serif !important;
-    font-optical-sizing: auto !important;
-    font-weight: 400 !important;
-    font-style: normal !important;
-  } 
