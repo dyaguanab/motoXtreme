@@ -1,32 +1,33 @@
 .container-personality {
-  background-image: url(/assets/fondo4.png);
+  background-image: url(/assets/complete/fondo4.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   height: 100%;
-  width: auto;
+  width: 100%;
   margin: 0;
 }
 
 .title-complete {
   font-weight: bolder;
-  top: 57%;
+  position: relative;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .subtitle-complete {
   font-weight: bolder;
-  top: 52%;
+  top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .button-complete {
   font-weight: bolder;
-  top: 50%;
-  left: 17%;
+  top: 65%;
+  left: 13%;
   transform: translate(-50%, -50%);
 }
 
@@ -43,12 +44,13 @@
 }
 
 .filter {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .line-grid {
   border-top: 0.5px solid #000;
 }
+
 .translate-indicators {
   position: absolute;
   top: 102%;
@@ -72,15 +74,22 @@
 }
 
 .img-model-moto {
-  width: 20em;
+  width: 325px;
+  height: 275px;
 }
 
+.img-model-moto2 {
+  width: 480px;
+  height: 290px;
+}
 .pie-model {
   padding: 0 20px 0 20px;
 }
-.button-complete {
-  left: 3%;
+
+.ajuste {
+  padding: 10px;
 }
+
 @media (min-width: 992px) {
   .size-carousel {
     width: 60%;
@@ -107,21 +116,24 @@
   }
 
   .container-products {
-    margin: 20px;
     margin-bottom: 30px;
   }
 
   .title-complete {
-    top: 54%;
+    top: 25%;
     left: 50%;
   }
 
   .subtitle-complete {
-    top: 52%;
+    top: 73%;
     left: 50%;
   }
 
-  .w-lg-90 {
+  .button-complete {
+    top: 72%;
+    left: 4%;
+  }
+  .w-lg-85 {
     width: 85% !important;
   }
 }

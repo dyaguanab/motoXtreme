@@ -1,7 +1,7 @@
 
 
 .container-personality {
-  background-image: url(/assets/sunsetMotor.png);
+  background-image: url(/assets/promotions/sunsetMotor.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,7 +12,7 @@
 }
 
 .title-promotions {
-  top: 20%;
+  top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-weight: 900 !important;

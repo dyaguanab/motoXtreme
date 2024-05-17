@@ -1,9 +1,32 @@
-* {
+/* * {
   font-family: "Overpass", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   color: #b8b7bd;
+} */
+
+@font-face {
+  font-family: "Quickstep";
+  src: url(fonts/Quickstep.otf);
+}
+
+* {
+  font-family: "Quickstep";
+  font-weight: 400;
+}
+
+p {
+  font-family: "Quickstep";
+  font-weight: 200 !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Quickstep";
+  font-weight: bolder;
 }
 
 .background-color-1 {
@@ -15,7 +38,7 @@
 .background-color-3 {
   background-color: #e1e0e3 !important;
 }
-.background-color-3:hover{
+.background-color-3:hover {
   background-color: #0c225d !important;
 }
 .background-color-4 {
@@ -46,23 +69,23 @@
 }
 
 .border-color-1 {
-    border: 2px solid #272625 !important;
+  border: 2px solid #272625 !important;
 }
 
 .border-color-2 {
-    border: 2px solid #61636b !important;
+  border: 2px solid #61636b !important;
 }
 
 .border-color-3 {
-    border: 2px solid #30302f !important;
+  border: 2px solid #30302f !important;
 }
 
 .border-color-4 {
-    border: 2px solid #30302f !important;
+  border: 2px solid #30302f !important;
 }
 
 .border-color-5 {
-    border: 2px solid #0c225d !important;
+  border: 2px solid #0c225d !important;
 }
 
 .div-container {
@@ -73,8 +96,28 @@
   font-size: 2.5rem;
 }
 
-.bold{
-    font-weight: bold !important;
+.bold {
+  font-weight: bold !important;
+}
+
+.font-size-1 {
+  font-size: 1em;
+}
+
+.font-size-2 {
+  font-size: 2em;
+}
+
+.font-size-3 {
+  font-size: 3em;
+}
+
+.font-size-4 {
+  font-size: 4em;
+}
+
+.font-size-5 {
+  font-size: 5em;
 }
 
 .text-light-bold {
@@ -95,4 +138,30 @@
 
 .text-light-bold:hover {
   color: red;
+}
+
+@media (min-width: 993px) {
+  .font-size-lg-1 {
+    font-size: 1.2em !important;
+  }
+
+  .font-size-lg-15{
+    font-size: 1.5em !important;
+
+  }
+  .font-size-lg-2 {
+    font-size: 2em !important;
+  }
+
+  .font-size-lg-3 {
+    font-size: 3em !important;
+  }
+
+  .font-size-lg-4 {
+    font-size: 4em !important;
+  }
+
+  .font-size-lg-5 {
+    font-size: 5em !important;
+  }
 }

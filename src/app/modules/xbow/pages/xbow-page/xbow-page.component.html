@@ -1,8 +1,14 @@
 <div class="div-container text-center position-relative mb-5">
   <div class="container-personality">
-    <h1 class="title-xbow text-color-5 large position-relative">XBOW</h1>
-    <h2 class="text-color-5 subtitle-xbow position-relative">BORN ON THE RACETRACK</h2>
-    <button class="position-relative background-color-5 text-color-2 button-xbow ">
+    <h1 class="title-xbow text-color-5 large font-size-lg-5 position-relative">
+      XBOW
+    </h1>
+    <h2 class="text-color-5 subtitle-xbow position-relative">
+      BORN ON THE RACETRACK
+    </h2>
+    <button
+      class="position-relative background-color-5 text-color-2 button-xbow"
+    >
       PRE-ORDER
     </button>
   </div>
@@ -11,10 +17,7 @@
 <div class="image-video-wrp">
   <figure class="border-color-1">
     <ng-container *ngIf="videodisabled; else videoblock">
-      <img
-        src="/assets/xbowVideoPoster.png"
-        class="img-fluid thumblin"
-      />
+      <img src="/assets/xbow/xbowVideoPoster.png" class="img-fluid thumblin" />
     </ng-container>
     <ng-template #videoblock>
       <iframe
@@ -42,36 +45,50 @@
     </p>
   </div>
 
+
+</div>
+
+<div class="image-video-wrp">
+  <figure class="border-color-1">
+    <ng-container *ngIf="videodisabled; else honda">
+      <img src="/assets/xbow/hondacivic.jpg" class="img-fluid thumblin" />
+    </ng-container>
+    <ng-template #honda>
+      <iframe
+        src="https://www.youtube.com/embed/pTNL-zD0wqo?si=NhnnAApamy7qSHum"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+    </ng-template>
+    <div class="play-icon-box border-color-1">
+      <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="" />
+    </div>
+  </figure>
+
+  <div class="text-color-1 pie-video">
+    <br />
+    <h2 class="bold">REVOLUTIONARY. PURISTIC. RADICAL.</h2>
+    <p class="text-color-2">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum rem
+      voluptatum provident adipisci maxime error ut. Sequi fugiat quae expedita,
+      amet obcaecati enim ullam accusantium omnis asperiores maxime placeat
+      delectus!
+    </p>
+  </div>
+
   <div class="container-grid">
     <div class="row">
       <div>
-        <h3 class="text-color-1 title-grid">GRID</h3>
+        <h3 class="text-color-1 title-grid font-size-lg-3">XBOW CARDS</h3>
         <div class="line-grid"></div>
       </div>
-      <div class="col-sm-12 col-lg-4">
-        <div class="d-flex justify-content-center">
-          <img
-            class="img-grid"
-            src="/assets/hayabusa.png"
-            alt="Vehículo 1"
-          />
-        </div>
-
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
-          corrupti dignissimos saepe amet aliquid laudantium porro autem quia
-          tempora esse. Quis consequuntur necessitatibus facere amet provident
-          ipsa repellendus recusandae reprehenderit!
-        </p>
-        <button>PÁGINA DEL MODELO</button>
-      </div>
-      <div class="col-sm-12 col-lg-4">
-        <img
-          class="img-grid"
-          src="/assets/hayabusa.png"
-          alt="Vehículo 1"
-        />
+      <div
+        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+      >
+        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
         <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
         <p class="text-color-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
@@ -79,64 +96,74 @@
           provident eligendi perferendis minus. Soluta officiis laborum atque
           ullam amet.
         </p>
+        <button class="w-100">MODEL PAGE</button>
       </div>
-      <div class="col-sm-12 col-lg-4">
-        <img
-          class="img-grid"
-          src="/assets/hayabusa.png"
-          alt="Vehículo 1"
-        />
-        <h1 class="d-flex justify-content-center">Yamaha Hayabusa</h1>
+      <div
+        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+      >
+        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
+        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
         <p class="text-color-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
           provident eligendi perferendis minus. Soluta officiis laborum atque
           ullam amet.
         </p>
+        <button class="w-100">MODEL PAGE</button>
+      </div>
+      <div
+        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+      >
+        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
+        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+        <p class="text-color-2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
+          provident eligendi perferendis minus. Soluta officiis laborum atque
+          ullam amet.
+        </p>
+        <button class="w-100">MODEL PAGE</button>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-lg-4">
-        <img
-          class="img-grid"
-          src="/assets/hayabusa.png"
-          alt="Vehículo 1"
-        />
-        <h1 class="d-flex justify-content-center">Yamaha Hayabusa</h1>
+      <div
+        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+      >
+        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
+        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
         <p class="text-color-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
           provident eligendi perferendis minus. Soluta officiis laborum atque
           ullam amet.
         </p>
+        <button class="w-100">MODEL PAGE</button>
       </div>
-      <div class="col-sm-12 col-lg-4">
-        <img
-          class="img-grid"
-          src="/assets/hayabusa.png"
-          alt="Vehículo 1"
-        />
-        <h1 class="d-flex justify-content-center">Yamaha Hayabusa</h1>
+      <div
+        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+      >
+        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
+        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
         <p class="text-color-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
           provident eligendi perferendis minus. Soluta officiis laborum atque
           ullam amet.
         </p>
+        <button class="w-100">MODEL PAGE</button>
       </div>
-      <div class="col-sm-12 col-lg-4">
-        <img
-          class="img-grid"
-          src="/assets/hayabusa.png"
-          alt="Vehículo 1"
-        />
-        <h1 class="d-flex justify-content-center">Yamaha Hayabusa</h1>
+      <div
+        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+      >
+        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
+        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
         <p class="text-color-2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
           veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
           provident eligendi perferendis minus. Soluta officiis laborum atque
           ullam amet.
         </p>
+        <button class="w-100">MODEL PAGE</button>
       </div>
     </div>
   </div>

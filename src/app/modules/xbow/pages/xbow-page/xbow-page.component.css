@@ -1,5 +1,5 @@
 .container-personality {
-    background-image: url(/assets/GT-XR-header.png);
+    background-image: url(/assets/xbow/fondo-xbow.png);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,22 +9,22 @@
 }
 
 .title-xbow{
-    top: 57%;
-    left: 50%;
     transform: translate(-50%, -50%);
+    top: 25%;
+    left: 50%;
     font-weight: bolder;
 }
 
 .subtitle-xbow{
     font-weight: bolder;
-    top: 52%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .button-xbow{
     font-weight: bolder;
-    top: 50%;
+    top: 65%;
     left: 13%;
     transform: translate(-50%, -50%);
 }
@@ -39,13 +39,13 @@
 }
 
 .image-video-wrp figure .thumblin {
-    height: 265px;
+    height: 500px;
     object-fit: cover;
     width: 100%;
 }
 
 .image-video-wrp figure iframe {
-    height: 265px;
+    height: 500px;
     object-fit: cover;
     width: 100%;
 }
@@ -73,7 +73,7 @@
 }
 
 .container-grid{
-    margin: 0;
+    margin-top: 5%;
 }
 
 .title-grid{
@@ -87,25 +87,35 @@
 
 .img-grid {
     position: relative;
-    width: 100%;
-    height: 55%;
+    width: 70%;
+    height: 50%;
     padding-top: 15px;
+}
+
+.personal-card{
+    display: grid;
+    padding-bottom: 35px;
+    transition: box-shadow 0.3s ease-in-out; 
+}
+
+.personal-card:hover{
+    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.2); 
 }
 
 @media(min-width:992px){
     .title-xbow{
-        top: 55%;
+        top: 25%;
         left: 50%;
 
     }
     
     .subtitle-xbow{
-        top: 52%;
+        top: 80%;
         left: 50%;
     }
     
     .button-xbow{
-        top: 50%;
+        top: 79%;
         left: 3.3%;
     }
 }

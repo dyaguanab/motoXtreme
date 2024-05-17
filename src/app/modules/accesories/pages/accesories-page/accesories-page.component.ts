@@ -30,4 +30,5 @@ export class AccesoriesPageComponent implements OnInit {
       this.videodisabled = true
     }
   }
+  
 }
