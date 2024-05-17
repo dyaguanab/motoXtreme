@@ -1,169 +1,189 @@
-<div class="div-container text-center position-relative mb-5">
-  <div class="container-personality">
-    <h1 class="title-xbow text-color-5 large font-size-lg-5 position-relative">
-      XBOW
-    </h1>
-    <h2 class="text-color-5 subtitle-xbow position-relative">
-      BORN ON THE RACETRACK
-    </h2>
-    <button
-      class="position-relative background-color-5 text-color-2 button-xbow"
-    >
-      PRE-ORDER
-    </button>
-  </div>
-</div>
-
-<div class="image-video-wrp">
-  <figure class="border-color-1">
-    <ng-container *ngIf="videodisabled; else videoblock">
-      <img src="/assets/xbow/xbowVideoPoster.png" class="img-fluid thumblin" />
-    </ng-container>
-    <ng-template #videoblock>
-      <iframe
-        src="https://www.youtube.com/embed/CVbgoHEGpIc?si=QX1bGkohXMaOtHvn"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </ng-template>
-    <div class="play-icon-box border-color-1">
-      <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="" />
+<div class="background-color-1">
+  <div class="div-container text-center position-relative mb-5">
+    <div class="container-personality">
+      <h1
+        class="title-xbow text-color-5 large font-size-lg-5 position-relative text-shadow-white"
+      >
+        XBOW
+      </h1>
+      <h2
+        class="text-color-5 subtitle-xbow position-relative text-shadow-white"
+      >
+        BORN ON THE RACETRACK
+      </h2>
+      <button
+        class="position-relative background-color-5 text-color-3 button-xbow"
+      >
+        PRE-ORDER
+      </button>
     </div>
-  </figure>
-
-  <div class="text-color-1 pie-video">
-    <br />
-    <h2 class="bold">REVOLUTIONARY. PURISTIC. RADICAL.</h2>
-    <p class="text-color-2">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum rem
-      voluptatum provident adipisci maxime error ut. Sequi fugiat quae expedita,
-      amet obcaecati enim ullam accusantium omnis asperiores maxime placeat
-      delectus!
-    </p>
   </div>
 
+  <div
+    class="d-flex justify-content-center flex-wrap text-color-3 p-4 font-size-lg-2 text-center"
+  >
+    Below is a presentation of the various racing cars produced by brands that
+    specialize in manufacturing motorcycles. This overview highlights the unique
+    designs and engineering prowess of these companies, showcasing their
+    dedication to excellence in both automotive and motorcycle industries.
+  </div>
+  <div class="image-video-wrp">
+    <figure class="border-color-1">
+      <ng-container *ngIf="videodisabled; else videoblock">
+        <img
+          src="/assets/xbow/xbowVideoPoster.png"
+          class="img-fluid thumblin"
+        />
+      </ng-container>
+      <ng-template #videoblock>
+        <iframe
+          src="https://www.youtube.com/embed/CVbgoHEGpIc?si=QX1bGkohXMaOtHvn"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </ng-template>
+      <div class="play-icon-box border-color-1">
+        <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="" />
+      </div>
+    </figure>
 
-</div>
-
-<div class="image-video-wrp">
-  <figure class="border-color-1">
-    <ng-container *ngIf="videodisabled; else honda">
-      <img src="/assets/xbow/hondacivic.jpg" class="img-fluid thumblin" />
-    </ng-container>
-    <ng-template #honda>
-      <iframe
-        src="https://www.youtube.com/embed/pTNL-zD0wqo?si=NhnnAApamy7qSHum"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
-    </ng-template>
-    <div class="play-icon-box border-color-1">
-      <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="" />
+    <div class="text-color-1 pie-video">
+      <br />
+      <h2 class="bold">REVOLUTIONARY. PURISTIC. RADICAL.</h2>
+      <p class="text-color-3 font-size-lg-15">
+        The production KTM X-BOW is KTM’s interpretation of a super sports car
+        for the 21st century. "We took Colin Chapman's idea of a spartan,
+        lightweight sports car reduced to the bare essentials and transfered it
+        into the new millennium – with as many technological innovations as
+        possible", says KTM CEO Stefan Pierer, of the first four-wheeled model
+        in KTM’s history
+      </p>
     </div>
-  </figure>
-
-  <div class="text-color-1 pie-video">
-    <br />
-    <h2 class="bold">REVOLUTIONARY. PURISTIC. RADICAL.</h2>
-    <p class="text-color-2">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum rem
-      voluptatum provident adipisci maxime error ut. Sequi fugiat quae expedita,
-      amet obcaecati enim ullam accusantium omnis asperiores maxime placeat
-      delectus!
-    </p>
   </div>
 
-  <div class="container-grid">
-    <div class="row">
-      <div>
-        <h3 class="text-color-1 title-grid font-size-lg-3">XBOW CARDS</h3>
-        <div class="line-grid"></div>
+  <div class="image-video-wrp">
+    <figure class="border-color-1">
+      <ng-container *ngIf="videodisabled; else honda">
+        <img src="/assets/xbow/hondacivic.jpg" class="img-fluid thumblin" />
+      </ng-container>
+      <ng-template #honda>
+        <iframe
+          src="https://www.youtube.com/embed/pTNL-zD0wqo?si=NhnnAApamy7qSHum"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </ng-template>
+      <div class="play-icon-box border-color-1">
+        <img (click)="changeImg()" [title]="play" [src]="videoIcon" alt="" />
       </div>
-      <div
-        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
-      >
-        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
-          provident eligendi perferendis minus. Soluta officiis laborum atque
-          ullam amet.
-        </p>
-        <button class="w-100">MODEL PAGE</button>
-      </div>
-      <div
-        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
-      >
-        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
-          provident eligendi perferendis minus. Soluta officiis laborum atque
-          ullam amet.
-        </p>
-        <button class="w-100">MODEL PAGE</button>
-      </div>
-      <div
-        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
-      >
-        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
-          provident eligendi perferendis minus. Soluta officiis laborum atque
-          ullam amet.
-        </p>
-        <button class="w-100">MODEL PAGE</button>
-      </div>
+    </figure>
+
+    <div class="text-color-1 pie-video">
+      <br />
+      <h2 class="bold">INNOVATIVE. RELIABLE. VERSATILE.</h2>
+      <p class="text-color-3 font-size-lg-15">
+        The Honda Civic represents our vision of a modern, versatile vehicle
+        designed to meet the needs of the 21st-century driver," says Honda CEO
+        Takahiro Hachigo. This overview highlights the Civic's distinctive
+        design and advanced engineering, showcasing Honda's dedication to
+        excellence in both form and function. By integrating cutting-edge
+        technology and maintaining a focus on sustainability, the Honda Civic
+        continues to set the standard in the automotive industry.
+      </p>
     </div>
-    <div class="row">
-      <div
-        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
-      >
-        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
-          provident eligendi perferendis minus. Soluta officiis laborum atque
-          ullam amet.
-        </p>
-        <button class="w-100">MODEL PAGE</button>
+
+    <div class="container-grid">
+      <div class="row">
+        <div>
+          <h3 class="text-color-1 title-grid font-size-lg-3">XBOW CARDS</h3>
+          <div class="line-grid"></div>
+        </div>
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+        >
+          <img class="img-grid" src="/assets/xbow/1.png" alt="Vehículo 1" />
+          <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+          <p class="text-color-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi
+            nihil provident eligendi perferendis minus. Soluta officiis laborum
+            atque ullam amet.
+          </p>
+          <button class="w-100">MODEL PAGE</button>
+        </div>
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+        >
+          <img class="img-grid" src="/assets/xbow/2.png" alt="Vehículo 1" />
+          <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+          <p class="text-color-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi
+            nihil provident eligendi perferendis minus. Soluta officiis laborum
+            atque ullam amet.
+          </p>
+          <button class="w-100">MODEL PAGE</button>
+        </div>
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+        >
+          <img class="img-grid" src="/assets/xbow/3.png" alt="Vehículo 1" />
+          <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+          <p class="text-color-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi
+            nihil provident eligendi perferendis minus. Soluta officiis laborum
+            atque ullam amet.
+          </p>
+          <button class="w-100">MODEL PAGE</button>
+        </div>
       </div>
-      <div
-        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
-      >
-        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
-          provident eligendi perferendis minus. Soluta officiis laborum atque
-          ullam amet.
-        </p>
-        <button class="w-100">MODEL PAGE</button>
-      </div>
-      <div
-        class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
-      >
-        <img class="img-grid" src="/assets/hayabusa.png" alt="Vehículo 1" />
-        <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
-        <p class="text-color-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
-          veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi nihil
-          provident eligendi perferendis minus. Soluta officiis laborum atque
-          ullam amet.
-        </p>
-        <button class="w-100">MODEL PAGE</button>
+      <div class="row">
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+        >
+          <img class="img-grid" src="/assets/xbow/4.png" alt="Vehículo 1" />
+          <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+          <p class="text-color-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi
+            nihil provident eligendi perferendis minus. Soluta officiis laborum
+            atque ullam amet.
+          </p>
+          <button class="w-100">MODEL PAGE</button>
+        </div>
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+        >
+          <img class="img-grid" src="/assets/xbow/5.png" alt="Vehículo 1" />
+          <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+          <p class="text-color-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi
+            nihil provident eligendi perferendis minus. Soluta officiis laborum
+            atque ullam amet.
+          </p>
+          <button class="w-100">MODEL PAGE</button>
+        </div>
+        <div
+          class="col-sm-12 col-lg-4 d-flex justify-content-center flex-wrap personal-card"
+        >
+          <img class="img-grid" src="/assets/xbow/6.png" alt="Vehículo 1" />
+          <h1 class="d-flex justify-content-center">Suzuki Hayabusa</h1>
+          <p class="text-color-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+            veritatis, ad perspiciatis ipsa sint at velit nesciunt quis modi
+            nihil provident eligendi perferendis minus. Soluta officiis laborum
+            atque ullam amet.
+          </p>
+          <button class="w-100">MODEL PAGE</button>
+        </div>
       </div>
     </div>
   </div>

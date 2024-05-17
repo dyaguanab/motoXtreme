@@ -30,7 +30,7 @@
 }
 
 .image-video-wrp {
-    margin: 20px;
+    padding: 20px;
 }
 
 .image-video-wrp figure {
@@ -81,7 +81,7 @@
 }
 
 .line-grid {
-    border-top:.5px solid #000;
+    border-top:.5px solid #ffa200;
     margin-bottom: 64px;
 }
 
@@ -95,11 +95,11 @@
 .personal-card{
     display: grid;
     padding-bottom: 35px;
-    transition: box-shadow 0.3s ease-in-out; 
+    transition: box-shadow 0.3s ease-in-out ; 
 }
 
 .personal-card:hover{
-    box-shadow: 10px 10px 80px rgba(0, 0, 0, 0.2); 
+    box-shadow: 10px 10px 80px white; 
 }
 
 @media(min-width:992px){
